@@ -7,7 +7,11 @@ public class Operator {
         System.out.println(c.getClass().getName());
         for (int i =0;i<c.length;i++){
             for (int j =0; j<c.length;j++){
-                System.out.print("\n"+c[j]+"\t"+j);
+                if(c[i]+c[j] == 5){
+                    System.out.println(c[i]+"\t");
+                    break;
+                }
+                // System.out.print("\n"+c[j]+"\t"+j);
             }
         }
     }
