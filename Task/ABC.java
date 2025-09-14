@@ -18,7 +18,7 @@ public class ABC
             
         }
         System.out.println("\n");
-        String  m = "Za";
+        String  m = "AZz";
         for (int j =0; j<m.length();j++){
             char ch = m.charAt(j);
             if((ch>='a') && (ch<='z') ){
@@ -32,7 +32,8 @@ public class ABC
                 System.out.print((char) (ch+32));
                 if(ch == 'Z'){
                     ch+=7;
-   
+                continue;   
+
                 }
             }
             }
