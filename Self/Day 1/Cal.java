@@ -16,7 +16,7 @@ public class Cal {
         else if (ch == '%')
             System.out.println("mod"+(a%b));
         else
-            System.out.println("Not Vaild");
+            System.out.println("Not Vaild"+ (a^b));
 
 
     }
