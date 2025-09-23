@@ -2,7 +2,7 @@ import java.util.*;
 public class Area {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        outer:
+        OP:
         while(true){
             System.out.print("Rectangle R Triangle T Cricle C Square S Parallelogram P Trapezo if T1 else Q to Quit");
                 String str = sc.next();
@@ -56,7 +56,7 @@ public class Area {
                     break;
                     default:
                         System.out.println("Working on it");
-                    break outer;
+                    break OP;
             }
 
         }
